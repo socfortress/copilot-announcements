@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "announcements": [
+    {
+      "id": "2026-10-socfortress-signals",
+      "category": "product",
+      "title": "SOCFortress Signals: more signals, less noise",
+      "summary": "Security intelligence matched to the technologies you use, so your team can focus on what matters.",
+      "body_markdown": "**SOCFortress Signals** connects security intelligence to your environment.\n\n- **See the bigger picture**: search advisories, vulnerabilities, threat actors, malware and indicators in one place, with the original sources.\n- **Make intelligence readable**: weekly intelligence reports and monthly Patch Tuesday PDFs, by email and in your report archive.\n- **Find your signal**: match advisories to your declared products and versions, with evidence-backed explanations and timely alerts.\n\nGlobal intelligence is available on every plan, including Free.",
+      "cta": { "label": "Get started with Signals", "url": "https://signals.socfortress.co" },
+      "published_at": "2026-10-22T15:00:00Z",
+      "popup": true
+    },
+    {
+      "id": "2026-10-socfortress-waf",
+      "category": "product",
+      "title": "The SOCFortress WAF",
+      "summary": "A self-hosted web application firewall on Caddy + Coraza (OWASP CRS v4), managed from CoPilot.",
+      "image_url": "https://img.youtube.com/vi/ZvjfPXP3X30/maxresdefault.jpg",
+      "image_alt": "SOCFortress WAF demo video",
+      "body_markdown": "Protect your customers' web applications with the **SOCFortress WAF**: Caddy + Coraza with the OWASP Core Rule Set v4, a management API and an admin dashboard, run from prebuilt images.\n\nIn CoPilot:\n\n- Connect a WAF under **Customers → Customer → WAF**\n- Events, stats and threat intel on **Investigate → WAF**\n- Block an IP straight from an alert's IoCs\n- Forward WAF events into your SIEM, with alerts for blocks and brute force\n\n[Watch the 10-minute demo](https://youtu.be/ZvjfPXP3X30): deploy, automatic TLS, block live attacks, tune a false positive.",
+      "cta": { "label": "View on GitHub", "url": "https://github.com/socfortress/waf-platform-public" },
+      "published_at": "2026-10-15T15:00:00Z",
+      "popup": true
+    }
+  ]
+}

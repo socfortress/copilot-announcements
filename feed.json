@@ -2,6 +2,18 @@
   "version": 1,
   "announcements": [
     {
+      "id": "2026-10-socfortress-file-analysis",
+      "category": "product",
+      "title": "SOCFortress File Analysis: know what a file does before it runs",
+      "summary": "Inspect suspicious files from CoPilot alerts and Velociraptor collections and get a clean, suspicious or malicious verdict.",
+      "image_url": "https://img.youtube.com/vi/9zJcj5USMzY/maxresdefault.jpg",
+      "image_alt": "SOCFortress File Analysis demo video",
+      "body_markdown": "**SOCFortress File Analysis** brings safe file inspection and detonation to CoPilot. Pull a suspicious file straight from an alert or a Velociraptor collection, with no manual download or re-upload, and get a verdict on the alert.\n\n- **Static Inspector (always on)**: parses files without running them, in a network-isolated, locked-down container. It renders document previews, unwraps obfuscated scripts and extracts macros, embedded objects, URLs, IPs, domains and hashes as IoCs.\n- **Full Detonation (opt-in)**: runs samples in a full guest VM through CAPE and records process trees, dropped files, persistence, API calls and network activity on an isolated network.\n- **Reputation enrichment**: SOCFortress Threat Intel first, then VirusTotal and abuse.ch, using hashes and IoCs only.\n- **Built for MSSPs**: results cached by SHA256, every submission scoped to its customer, and file content stays on your own infrastructure by default.\n\n[Watch the demo](https://youtu.be/9zJcj5USMzY): analyze suspicious files without running them, with CoPilot + Velociraptor. [Learn more](https://www.socfortress.co/products/file-analysis).",
+      "cta": { "label": "Request early access", "url": "https://www.socfortress.co/feature-requests?feature=file-analysis" },
+      "published_at": "2026-10-30T15:00:00Z",
+      "popup": true
+    },
+    {
       "id": "2026-10-socfortress-signals",
       "category": "product",
       "title": "SOCFortress Signals: more signals, less noise",

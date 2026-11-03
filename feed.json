@@ -2,6 +2,18 @@
   "version": 1,
   "announcements": [
     {
+      "id": "2026-11-socfortress-talon",
+      "category": "product",
+      "title": "Meet the new Talon: an AI SOC analyst that investigates every alert and looks after your SIEM",
+      "summary": "Rebuilt from the ground up inside CoPilot: investigations it explains, built to be trusted with client data, plus Ops jobs that watch your stack.",
+      "image_url": "https://img.youtube.com/vi/I1VO6GDhXcU/maxresdefault.jpg",
+      "image_alt": "Talon + CoPilot demo video",
+      "body_markdown": "**Talon**, the SOCFortress AI SOC analyst, has been rebuilt from the ground up and runs inside CoPilot.\n\n- **Every alert gets a real investigation**: Talon reads the raw event, searches the customer's Wazuh indices, checks the host through Wazuh and Velociraptor, looks up indicators in threat intel (including your own OpenCTI) and recalls prior reports. It writes a structured report back to the alert: severity, confidence, evidence and next steps.\n- **Built to be trusted with client data**: identifiers are anonymized before any model sees them, every tool is bound to the alert's customer, and the model never writes to CoPilot itself. Every customer starts in shadow mode, and you take them live one at a time.\n- **Talon Chat**: ask about an alert or a host on the **AI Analyst** page and see each tool call. Proposed actions such as status changes or quarantining a host wait for a person to approve them.\n- **Memory**: lessons from your analysts' reviews shape future investigations for that customer.\n- **Ops jobs (new)**: scheduled, read-only checks on the stack itself: quiet endpoints, silent log sources, noisy rules with proposed exclusions, indexer health, disk forecasts, mapping drift and agent hygiene, on the **Ops** tab.\n- **Costs and control**: per-customer model policy, usage and budgets, notifications by email, webhook, Shuffle or Teams. Runs next to your CoPilot, with Claude by default or local models through Ollama.\n\nTalon is available to SOCFortress clients today: our engineers install it alongside your CoPilot and walk each customer through the shadow period.\n\n[Watch the demo](https://youtu.be/I1VO6GDhXcU) · [Read the announcement](https://medium.com/@socfortress/meet-the-new-talon-an-ai-soc-analyst-that-investigates-every-alert-explains-its-work-and-looks-cac71f1bb323)",
+      "cta": { "label": "Read the Talon docs", "url": "https://docs.socfortress.co/power-features/ai-analyst" },
+      "published_at": "2026-11-03T15:00:00Z",
+      "popup": true
+    },
+    {
       "id": "2026-10-socfortress-file-analysis",
       "category": "product",
       "title": "SOCFortress File Analysis: know what a file does before it runs",
